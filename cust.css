@@ -1,0 +1,21 @@
+button {
+    padding: 10px 15px;
+}
+
+input[type=text] {
+    padding: 5px 15px;
+}
+
+input[type=submit] {
+    padding: 10px 15px;
+    margin-top: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    padding: 20px;
+}

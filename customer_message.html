@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cust.css">
+</head>
+
+<body>
+    <h2>Enter message and submit</h2>
+    <button style="float: right; margin-right: 50%;"><a href="redis_conn.php">List of Messages</a></button>
+
+    <form method="post" action="redis_conn.php">
+        <input type="text" name="message" id="message" required><br>
+        <input type="submit" value="Submit" name="submit">
+    </form>
+</body>
+
+</html>
